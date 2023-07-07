@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import numpy as np
+import sklearn
 # import the model
 model= pickle.load(open('model.pkl','rb'))
 df = pickle.load(open('DataFrame.pkl','rb'))
